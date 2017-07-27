@@ -1,7 +1,7 @@
 (function() {
   'use strict';
 
-  window.app = angular.module('fileBrowserApp', ['ngRoute', 'jsTree.directive']).
+  window.app = angular.module('designBrowserApp', ['ngRoute', 'jsTree.directive']).
   config(['$routeProvider',
     function($routeProvider) {
       $routeProvider.

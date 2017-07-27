@@ -15,7 +15,7 @@
   router.get('/api/tree', function(req, res) {
     var _p;
     if (req.query.id == 1) {
-      _p = path.resolve(__dirname, '..', '.project');
+      _p = path.resolve(__dirname, '..', "..", '.project');
       processReq(_p, res);
 
     } else {
