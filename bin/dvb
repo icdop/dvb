@@ -1,0 +1,3 @@
+#!/bin/sh -f
+google-chrome --app=http://localhost:3000
+cd nodejs; gulp --gulpfile gulpfile.js
